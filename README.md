@@ -208,9 +208,26 @@ o método de la burbuja
 ## 9:
 
 ~~~
-  
-   public static void main(String[] args) {
 
+ public static void main(String[] args) {
+ 
+List<Integer> originalList = new ArrayList<Integer>();
+originalList.add(1);
+originalList.add(2);
+originalList.add(3);
+
+
+List<Integer> newList = new ArrayList<Integer>();
+
+for (int i = 0; i < originalList.size(); i++) {
+    newList.add(originalList.get(i));
+}
+
+System.out.println("Lista original: " + originalList);
+System.out.println("Nueva lista: " + newList);
+ 
+ }
+}
 ~~~
 
 ## 10:
