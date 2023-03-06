@@ -371,5 +371,106 @@ int longitud = lista1.size();
 ## 1:
 
 ~~~
+  public static void main(String args[]) {  
+  HashMap<Integer,String> hash_map= new HashMap<Integer,String>();  
+  hash_map.put(1, "Red");
+  hash_map.put(2, "Green");
+  hash_map.put(3, "Black");
+  hash_map.put(4, "White");
+  hash_map.put(5, "Blue");
+  for(Map.Entry i:hash_map.entrySet()){  
+   System.out.println(i.getKey()+" "+i.getValue());  
+  }  
+ }  
+}
+~~~
+
+
+
+## 2:
 
 ~~~
+dic.size();
+~~~
+
+## 3:
+
+~~~
+dic2.putAll(dic1);
+~~~
+
+## 4:
+
+~~~
+dic.clear();
+~~~
+
+
+## 5:
+
+~~~
+  boolean result = hash_map.isEmpty();
+~~~
+
+## 6:
+
+~~~
+ HashMap<Integer,String> new_hash_map= new HashMap<Integer,String>(); 
+   new_hash_map = (HashMap)hash_map.clone();   
+~~~
+
+
+## 7:
+
+~~~
+if (dic.containsKey("Green")) {
+   System.out.println("yes! - " + dic.get("Green"));
+  } else {
+   System.out.println("no!");
+  }
+~~~
+
+
+## 8:
+
+
+~~~
+ if (dic.containsValue("Green")) {
+   System.out.println("Yes! ");
+  } else {
+   
+   System.out.println("no!");
+  }
+~~~
+
+## 9:
+
+~~~
+Set ver = dic.entrySet();
+  System.out.println("Dic: " + ver);
+~~~
+
+## 10:
+
+~~~
+   String val=(String)dic.get(3); 
+   System.out.println("Value for key 3 is: " + val);
+~~~
+
+## 11:
+
+~~~
+Set keyset = dic.keySet();
+   System.out.println("Key set values are: " + keyset);  
+~~~
+
+## 12:
+
+~~~
+   System.out.println("Collection view is: "+ dic.values());
+
+~~~
+
+
+
+
