@@ -234,7 +234,142 @@ System.out.println("Nueva lista: " + newList);
 
 ~~~
 
+ Collections.shuffle(list_Strings);
+~~~
+
+## 11:
 
 ~~~
 
+Collections.reverse(list_Strings);
 
+~~~
+
+## 12:
+
+~~~
+  List<String> sub_List = list_Strings.subList(0, 3);
+~~~
+
+## 13:
+
+~~~
+
+  
+  public static void main(String[] args) {
+          ArrayList<String> c1= new ArrayList<String>();
+          c1.add("Red");
+          c1.add("Green");
+          c1.add("Black");
+          c1.add("White");
+          c1.add("Pink");
+
+          ArrayList<String> c2= new ArrayList<String>();
+          c2.add("Red");
+          c2.add("Green");
+          c2.add("Black");
+          c2.add("Pink");
+
+          //Storing the comparison output in ArrayList<String>
+          ArrayList<String> c3 = new ArrayList<String>();
+          for (String e : c1)
+             c3.add(c2.contains(e) ? "Si" : "No");
+          System.out.println(c3);
+         
+     }
+}
+
+~~~
+
+## 14:
+
+~~~
+
+Collections.swap(c1, 0, 2);
+
+~~~
+
+## 15:
+
+~~~
+
+public static void main(String[] args) {
+   ArrayList<String> c1= new ArrayList<String>();
+          c1.add("Red");
+          c1.add("Green");
+          c1.add("Black");
+          c1.add("White");
+          c1.add("Pink");
+          System.out.println("List of first array: " + c1);
+          
+          ArrayList<String> c2= new ArrayList<String>();
+          c2.add("Red");
+          c2.add("Green");
+          c2.add("Black");
+          c2.add("Pink");
+          System.out.println("List of second array: " + c2);
+          
+         
+      // Let join above two list
+        ArrayList<String> union = new ArrayList<String>();
+        union.addAll(c1);
+        union.addAll(c2);
+        System.out.println("New array: " + union);
+        
+
+     }
+}
+
+~~~
+
+## 16:
+
+~~~
+ArrayList<String> newc1 = (ArrayList<String>)c1.clone();
+~~~
+## 17:
+
+~~~
+lista1.removeAll(lista1);
+~~~
+
+
+## 18:
+
+~~~
+lista.isEmpty();
+~~~
+
+## 19:
+
+~~~
+lista.trimToSize();
+~~~
+
+## 20:
+
+~~~
+lista.ensureCapacity(4);
+~~~
+
+## 21:
+
+~~~
+color.set(0,new_color);
+~~~
+
+##22:
+
+~~~
+int longitud = lista1.size();
+  for (int i = 0; i < longitud; i++)
+   System.out.println(lista1.get(i));
+ }
+~~~
+
+# Hashmaps:
+## 1:
+
+~~~
+
+~~~
